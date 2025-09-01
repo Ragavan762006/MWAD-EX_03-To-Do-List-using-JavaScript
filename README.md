@@ -1,5 +1,5 @@
 # MWAD-EX_03-To-Do-List-using-JavaScript
-## Date:
+
 
 ## AIM
 To create a To-do Application with all features using JavaScript.
@@ -54,11 +54,7 @@ Upload to GitHub Pages for free hosting.
 <input type="text" id="todoInput" placeholder="Enter a task" required>
 <button type="submit">Add</button>
 </form>
-
-
 <ul id="todoList"></ul>
-
-
 <div class="filters">
 <button data-filter="all" class="active">All</button>
 <button data-filter="completed">Completed</button>
@@ -71,20 +67,53 @@ Upload to GitHub Pages for free hosting.
 ```
 ### style.css
 ```
-body { font-family: Arial, sans-serif; background: #f0f0f0; padding: 20px; }
-h1 { text-align: center; }
-.container { max-width: 500px; margin: 0 auto; background: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
-#todoForm { display: flex; gap: 10px; margin-bottom: 10px; }
-input[type=text] { padding: 8px; flex: 1; }
-button { padding: 8px; cursor: pointer; }
-ul { list-style: none; padding: 0; margin: 0; }
-li { display: flex; justify-content: space-between; align-items: center; padding: 8px; margin-bottom: 5px; border-radius: 4px; border: 1px solid #ddd; }
-li.completed .taskText { text-decoration: line-through; opacity: 0.6; }
-.options button { margin-left: 5px; padding: 4px 6px; border: none; border-radius: 4px; cursor: pointer; background: #1f2937; color: #fff; }
-.options button:hover { opacity: 0.8; }
-.filters { display: flex; justify-content: center; gap: 10px; margin-top: 10px; }
-.filters button { padding: 6px 12px; border: 1px solid #1f2937; background: #1f2937; color: #fff; border-radius: 4px; cursor: pointer; }
-.filters button.active { background: #34d399; border-color: #34d399; }
+body
+ { 
+    font-family: Arial, sans-serif; background: #f0f0f0; padding: 20px; 
+}
+h1 {
+     text-align: center; 
+    }
+.container {
+     max-width: 500px; margin: 0 auto; background: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+     }
+#todoForm
+ { 
+    display: flex; gap: 10px; margin-bottom: 10px;
+ }
+input[type=text] { 
+    padding: 8px; flex: 1; 
+}
+button 
+{
+     padding: 8px; cursor: pointer;
+     }
+ul { 
+    list-style: none; padding: 0; margin: 0;
+ }
+li { 
+    display: flex; justify-content: space-between; align-items: center; padding: 8px; margin-bottom: 5px; border-radius: 4px; border: 1px solid #ddd; }
+li.completed .taskText
+ { 
+    text-decoration: line-through; opacity: 0.6;
+ }
+.options button 
+{ 
+    margin-left: 5px; padding: 4px 6px; border: none; border-radius: 4px; cursor: pointer; background: #1f2937; color: #fff; }
+.options button:hover
+ { 
+    opacity: 0.8;
+ }
+.filters {
+     display: flex; justify-content: center; gap: 10px; margin-top: 10px; 
+    }
+.filters button {
+     padding: 6px 12px; border: 1px solid #1f2937; background: #1f2937; color: #fff; border-radius: 4px; cursor: pointer;
+     }
+.filters button.active
+ { 
+    background: #34d399; border-color: #34d399; 
+}
 ```
 ### script.js
 ```
